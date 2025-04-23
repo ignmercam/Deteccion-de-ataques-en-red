@@ -1,3 +1,0 @@
-01/25-14:12:16.302043  [**] [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 185.125.190.39:80 -> 193.147.162.145:59510
-01/25-14:12:16.386718  [**] [1:2101390:9] GPL SHELLCODE x86 inc ebx NOOP [**] [Classification: Executable code was detected] [Priority: 1] {TCP} 185.125.190.39:80 -> 193.147.162.145:59510
-01/25-14:12:16.387333  [**] [120:3:2] (http_inspect) NO CONTENT-LENGTH OR TRANSFER-ENCODING IN HTTP RESPONSE [**] [Classification: Unknown Traffic] [Priority: 3] {TCP} 185.125.190.39:80 -> 193.147.162.145:59510
