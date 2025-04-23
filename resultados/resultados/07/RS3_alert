@@ -1,0 +1,34 @@
+02/01-03:40:47.411655  [**] [1:2027397:2] ET POLICY Spotify P2P Client [**] [Classification: Not Suspicious Traffic] [Priority: 3] {UDP} 193.147.162.147:57621 -> 193.147.162.159:57621
+02/01-03:41:03.473311  [**] [1:2101411:12] GPL SNMP public access udp [**] [Classification: Attempted Information Leak] [Priority: 2] {UDP} 193.147.162.147:56261 -> 172.16.16.88:161
+02/01-03:41:52.930457  [**] [1:2101384:9] GPL MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 192.168.1.1:50001 -> 239.255.255.250:1900
+02/01-03:41:52.930780  [**] [1:2101384:9] GPL MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 192.168.1.1:50001 -> 239.255.255.250:1900
+02/01-03:41:52.931137  [**] [1:2101384:9] GPL MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 192.168.1.1:50001 -> 239.255.255.250:1900
+02/01-03:41:52.931358  [**] [1:2101384:9] GPL MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 192.168.1.1:50001 -> 239.255.255.250:1900
+02/01-03:44:16.453222  [**] [129:20:1] TCP session without 3-way handshake [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 108.61.171.103:21116 -> 193.147.162.145:55464
+02/01-03:45:17.481157  [**] [129:20:1] TCP session without 3-way handshake [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 108.61.171.103:21116 -> 193.147.162.145:51970
+02/01-03:45:47.501538  [**] [1:2027397:2] ET POLICY Spotify P2P Client [**] [Classification: Not Suspicious Traffic] [Priority: 3] {UDP} 193.147.162.147:57621 -> 193.147.162.159:57621
+02/01-03:46:19.451247  [**] [129:20:1] TCP session without 3-way handshake [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 108.61.171.103:21116 -> 193.147.162.145:35720
+02/01-03:47:20.454486  [**] [129:20:1] TCP session without 3-way handshake [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 108.61.171.103:21116 -> 193.147.162.145:39332
+02/01-03:48:22.452013  [**] [129:20:1] TCP session without 3-way handshake [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 108.61.171.103:21116 -> 193.147.162.145:44512
+02/01-03:49:23.451255  [**] [129:20:1] TCP session without 3-way handshake [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 108.61.171.103:21116 -> 193.147.162.145:44474
+02/01-03:50:24.448334  [**] [129:20:1] TCP session without 3-way handshake [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 108.61.171.103:21116 -> 193.147.162.145:50766
+02/01-03:50:47.599057  [**] [1:2027397:2] ET POLICY Spotify P2P Client [**] [Classification: Not Suspicious Traffic] [Priority: 3] {UDP} 193.147.162.147:57621 -> 193.147.162.159:57621
+02/01-03:51:03.489199  [**] [1:2101411:12] GPL SNMP public access udp [**] [Classification: Attempted Information Leak] [Priority: 2] {UDP} 193.147.162.147:56261 -> 172.16.16.88:161
+02/01-03:51:52.969550  [**] [1:2101384:9] GPL MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 192.168.1.1:50001 -> 239.255.255.250:1900
+02/01-03:51:52.969880  [**] [1:2101384:9] GPL MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 192.168.1.1:50001 -> 239.255.255.250:1900
+02/01-03:51:52.970234  [**] [1:2101384:9] GPL MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 192.168.1.1:50001 -> 239.255.255.250:1900
+02/01-03:51:52.970460  [**] [1:2101384:9] GPL MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 192.168.1.1:50001 -> 239.255.255.250:1900
+02/01-03:51:56.450858  [**] [129:20:1] TCP session without 3-way handshake [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 108.61.171.103:21116 -> 193.147.162.145:40592
+02/01-03:51:56.451520  [**] [129:20:1] TCP session without 3-way handshake [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 108.61.171.103:21116 -> 193.147.162.145:40592
+02/01-03:51:56.501698  [**] [129:20:1] TCP session without 3-way handshake [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 108.61.171.103:21116 -> 193.147.162.145:40592
+02/01-03:51:56.501743  [**] [129:20:1] TCP session without 3-way handshake [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 193.147.162.145:40592 -> 108.61.171.103:21116
+02/01-03:54:16.482741  [**] [129:20:1] TCP session without 3-way handshake [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 108.61.171.103:21116 -> 193.147.162.145:38152
+02/01-03:54:16.483569  [**] [129:20:1] TCP session without 3-way handshake [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 108.61.171.103:21116 -> 193.147.162.145:38152
+02/01-03:54:16.536126  [**] [129:20:1] TCP session without 3-way handshake [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 108.61.171.103:21116 -> 193.147.162.145:38152
+02/01-03:54:16.536152  [**] [129:20:1] TCP session without 3-way handshake [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 193.147.162.145:38152 -> 108.61.171.103:21116
+02/01-03:54:16.582700  [**] [129:20:1] TCP session without 3-way handshake [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 108.61.171.103:21116 -> 193.147.162.145:38152
+02/01-03:54:16.582724  [**] [129:20:1] TCP session without 3-way handshake [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 193.147.162.145:38152 -> 108.61.171.103:21116
+02/01-03:54:16.837461  [**] [129:20:1] TCP session without 3-way handshake [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 108.61.171.103:21116 -> 193.147.162.145:38152
+02/01-03:54:16.837483  [**] [129:20:1] TCP session without 3-way handshake [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 193.147.162.145:38152 -> 108.61.171.103:21116
+02/01-03:55:47.708599  [**] [1:2027397:2] ET POLICY Spotify P2P Client [**] [Classification: Not Suspicious Traffic] [Priority: 3] {UDP} 193.147.162.147:57621 -> 193.147.162.159:57621
+02/01-03:57:47.450557  [**] [129:20:1] TCP session without 3-way handshake [**] [Classification: Potentially Bad Traffic] [Priority: 2] {TCP} 108.61.171.103:21116 -> 193.147.162.145:40472

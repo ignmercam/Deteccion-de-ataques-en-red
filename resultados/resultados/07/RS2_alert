@@ -1,0 +1,14 @@
+02/01-03:40:47.411655  [**] [1:2027397:2] ET POLICY Spotify P2P Client [**] [Classification: Not Suspicious Traffic] [Priority: 3] {UDP} 193.147.162.147:57621 -> 193.147.162.159:57621
+02/01-03:41:03.473311  [**] [1:2101411:12] GPL SNMP public access udp [**] [Classification: Attempted Information Leak] [Priority: 2] {UDP} 193.147.162.147:56261 -> 172.16.16.88:161
+02/01-03:41:52.930457  [**] [1:2101384:9] GPL MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 192.168.1.1:50001 -> 239.255.255.250:1900
+02/01-03:41:52.930780  [**] [1:2101384:9] GPL MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 192.168.1.1:50001 -> 239.255.255.250:1900
+02/01-03:41:52.931137  [**] [1:2101384:9] GPL MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 192.168.1.1:50001 -> 239.255.255.250:1900
+02/01-03:41:52.931358  [**] [1:2101384:9] GPL MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 192.168.1.1:50001 -> 239.255.255.250:1900
+02/01-03:45:47.501538  [**] [1:2027397:2] ET POLICY Spotify P2P Client [**] [Classification: Not Suspicious Traffic] [Priority: 3] {UDP} 193.147.162.147:57621 -> 193.147.162.159:57621
+02/01-03:50:47.599057  [**] [1:2027397:2] ET POLICY Spotify P2P Client [**] [Classification: Not Suspicious Traffic] [Priority: 3] {UDP} 193.147.162.147:57621 -> 193.147.162.159:57621
+02/01-03:51:03.489199  [**] [1:2101411:12] GPL SNMP public access udp [**] [Classification: Attempted Information Leak] [Priority: 2] {UDP} 193.147.162.147:56261 -> 172.16.16.88:161
+02/01-03:51:52.969550  [**] [1:2101384:9] GPL MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 192.168.1.1:50001 -> 239.255.255.250:1900
+02/01-03:51:52.969880  [**] [1:2101384:9] GPL MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 192.168.1.1:50001 -> 239.255.255.250:1900
+02/01-03:51:52.970234  [**] [1:2101384:9] GPL MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 192.168.1.1:50001 -> 239.255.255.250:1900
+02/01-03:51:52.970460  [**] [1:2101384:9] GPL MISC UPnP malformed advertisement [**] [Classification: Misc Attack] [Priority: 2] {UDP} 192.168.1.1:50001 -> 239.255.255.250:1900
+02/01-03:55:47.708599  [**] [1:2027397:2] ET POLICY Spotify P2P Client [**] [Classification: Not Suspicious Traffic] [Priority: 3] {UDP} 193.147.162.147:57621 -> 193.147.162.159:57621
