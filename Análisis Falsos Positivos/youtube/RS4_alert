@@ -1,0 +1,10 @@
+09/11-17:02:05.564113  [**] [1:2002752:4] ET POLICY Reserved Internal IP Traffic [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 192.168.1.128:8001 -> 224.0.0.7:8001
+09/11-17:02:05.564113  [**] [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 192.168.1.128:8001 -> 224.0.0.7:8001
+09/11-17:02:13.280732  [**] [1:2002752:4] ET POLICY Reserved Internal IP Traffic [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 192.168.1.132:51749 -> 142.250.184.174:443
+09/11-17:02:13.280732  [**] [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 192.168.1.132:51749 -> 142.250.184.174:443
+09/11-17:02:13.347660  [**] [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 142.250.184.174:443 -> 192.168.1.132:51749
+09/11-17:02:13.421978  [**] [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 212.230.135.2:53 -> 192.168.1.132:53925
+09/11-17:02:13.472879  [**] [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 142.250.200.67:443 -> 192.168.1.132:54229
+09/11-17:02:14.519322  [**] [1:2002752:4] ET POLICY Reserved Internal IP Traffic [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IGMP} 192.168.1.1 -> 224.0.0.1
+09/11-17:02:14.519322  [**] [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets [**] [Classification: Potentially Bad Traffic] [Priority: 2] {IGMP} 192.168.1.1 -> 224.0.0.1
+09/11-17:02:15.097655  [**] [1:2002749:14] ET POLICY Unallocated IP Space Traffic - Bogon Nets [**] [Classification: Potentially Bad Traffic] [Priority: 2] {UDP} 212.230.194.200:443 -> 192.168.1.132:64479

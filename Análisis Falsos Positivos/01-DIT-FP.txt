@@ -1,0 +1,15 @@
+#RS1#
+0 alertas
+-
+
+#RS2#
+0 alertas
+SIDs: -
+
+#RS3#
+1 alertas
+SIDs: 3
+
+#RS4#
+3 alertas
+SIDs: 2002749, 2101390, 3

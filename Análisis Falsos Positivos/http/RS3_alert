@@ -1,0 +1,2 @@
+08/28-12:27:44.764274  [**] [120:18:3] (http_inspect) PROTOCOL-OTHER HTTP server response before client request  [**] [Classification: Unknown Traffic] [Priority: 3] {TCP} 193.147.162.130:80 -> 192.168.1.102:59771
+08/28-12:27:47.954852  [**] [139:1:1] (spp_sdf) SDF Combination Alert [**] [Classification: Senstive Data] [Priority: 2] {PROTO:254} 193.147.162.130 -> 192.168.1.102
