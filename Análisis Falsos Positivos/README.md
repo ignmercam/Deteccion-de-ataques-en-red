@@ -22,8 +22,6 @@ Estos archivos contienen las alertas específicas que han sido **identificadas c
 ### Informe Rulesets
 Contiene un informe por cada ruleset, detallando qué SIDs han sido responsables de generar falsos positivos, agrupadas por escenario de captura.
 
-### Paquetes Reglas Modificados
-Contiene los paquetes de reglas `.rules` que ya han sido modificados para eliminar las reglas asociadas a falsos positivos. También incluye un **informe resumen** indicando qué archivos fueron modificados y cuántas reglas fueron eliminadas.
 
 ---
 
