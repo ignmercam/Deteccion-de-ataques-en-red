@@ -1,48 +1,41 @@
-# Análisis de Falsos Positivos - TFG
+Análisis de las Capacidades de Detección de sistemas OpenSource y Comerciales antes ataques en red y de entorno móvil
 
-Este directorio contiene los resultados del análisis de alertas generadas por Snort, centrándose en la identificación de **falsos positivos** y la modificación de reglas para mejorar la eficacia del sistema IDS.
+Continuación TFGs Análisis Capacidades de Detección de Ataques en Red
 
----
+(1) Inicial "Familiarización": Matriz MITRE Enterprise
+	- Mejorar los resultados haciendo ajuste de reglas:
+		* Rendimiento tras eliminar las reglas que producen FP automáticos del tráfico legítimo.
+		* Chequear calculos (detectado error en RS4: Se está sumando las alertas de Talos Community 2 veces!!)
+	- Regenerar las Gráficas de Resultados (Snort/PA/FG, FP, ...) incluyendo lo anterior y el dataset legítimo "CIC2018 (FP)"
+	- [Pendiente] Efecto de los Preprocesadores: idem otro TFG con estos datasets
 
-## Estructura del Directorio
+https://attack.mitre.org/matrices/enterprise/
 
-### Carpetas de Capturas
-- `01 - DIT (...)` hasta `07 - DIT (...)`
-- `http`
-- `youtube`
+(2) Estudio similar para: Matriz MITRE "Mobile"
+	- Identificar tácticas/Técnicas "Traffic Network"
+	- Banco de ataques:
+		* Datasets: oficiales (artículos científicos) y marcados
+			- Buscar artículos en: https://scholar.google.es/
+			- Ejemplo:	https://fkie-cad.github.io/COMIDDS/content/all_datasets/
+		* Generar
+		Intentar cubrir el % mayor de técnicas/tácticas
+	- Detectar: Snort/FG/PA
+		* Instrucciones FG/PA cuando se empiece esta etapa (Avisar!)
+	- Analizar Resultados (y comparar con los de la parte Enterprise)
 
-Cada una de estas carpetas contiene los archivos de alertas generadas por Snort al aplicar diferentes conjuntos de reglas (`RS1_alert`, `RS2_alert`, `RS3_alert`, `RS4_alert`). Estas alertas provienen de diferentes escenarios de tráfico.
+https://attack.mitre.org/matrices/mobile/
 
-### Archivos `*-FP`
-- `01-DIT-FP`, `02-DIT-FP`, ..., `07-DIT-FP`
-- `http-FP`, `youtube-FP`
 
-Estos archivos contienen las alertas específicas que han sido **identificadas como falsos positivos** dentro de cada escenario y conjunto de reglas. Se utilizan como referencia para limpiar los paquetes de reglas en pasos posteriores.
+Generar GitHub con Resultados:
 
-### Informe Rulesets
-Contiene un informe por cada ruleset, detallando qué SIDs han sido responsables de generar falsos positivos, agrupadas por escenario de captura.
-
-### Paquetes Reglas Modificados
-Contiene los paquetes de reglas `.rules` que ya han sido modificados para eliminar las reglas asociadas a falsos positivos. También incluye un **informe resumen** indicando qué archivos fueron modificados y cuántas reglas fueron eliminadas.
-
----
-
-## Propósito
-
-El análisis de falsos positivos tiene como objetivo:
-- Identificar reglas que se activan incorrectamente.
-- Reducir el ruido en los análisis de Snort.
-- Mejorar la calidad de los rulesets personalizados.
+https://github.com/javgarbor10/Snort-FG-PA-Analisis_Capacidad_deteccion_Ataques_red 
 
 
 
----
+=== Complemento opcional
 
-## Relación con Scripts
-
-Este directorio es generado y gestionado con ayuda de los scripts disponibles en el repositorio:
-- `extraer_sids.py`: para identificar SIDs activadas.
-- `limpia_reglas.py`: para eliminar reglas problemáticas.
-- `analisisFP.py`: para generar resúmenes de alertas.
-
----
+(3) Web Seguridad ampliada con capacidad de análisis "al vuelo"
+	1º Subir pcaps (ataque, limpio, híbrido)
+	2º Analizar: Snort (distintas reglas), FG, PA
+	3º Extraer automáticamente TP, FP
+	4º Analizarlos con motores de anomalías
