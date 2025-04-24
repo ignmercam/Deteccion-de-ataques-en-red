@@ -1,0 +1,3 @@
+### SIDs a eliminar en Ruleset RS1 ###
+ 
+Total de reglas a eliminar: 0

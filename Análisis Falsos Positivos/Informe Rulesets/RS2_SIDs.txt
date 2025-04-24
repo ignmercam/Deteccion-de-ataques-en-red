@@ -1,0 +1,8 @@
+### SIDs a eliminar en Ruleset RS2 ###
+
+2101384  
+2101411  
+2019102  
+2027397  
+
+Total de reglas a eliminar: 4
