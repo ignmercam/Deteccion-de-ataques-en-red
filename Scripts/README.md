@@ -56,9 +56,49 @@ Script de limpieza que elimina reglas de archivos `.rules` basadas en una lista 
 
 ---
 
+### 5. `fusion_logs.py`
+Script en Python para fusionar múltiples archivos de alertas (`alert_fast.txt`) en un solo archivo consolidado.
+
+**Funcionalidad:**
+- Lee archivos de alertas en una carpeta dada.
+- Filtra líneas que contienen información válida de alertas.
+- Crea un archivo `alert_fusionado.txt` con todas las alertas combinadas.
+
+---
+
+### 6. `contador_sids.py`
+Script en Python que cuenta la aparición de cada SID en un archivo de alertas.
+
+**Funcionalidad:**
+- Extrae los SIDs del archivo.
+- Cuenta la frecuencia de cada SID.
+- Genera un listado ordenado por cantidad de ocurrencias.
+
+---
+
+### 7. `analiza_snort3.sh`
+Script en Bash para analizar tráfico con Snort 3 a partir de archivos `.pcapng`.
+
+**Funcionalidad:**
+- Convierte `.pcapng` a `.pcap` usando `editcap`.
+- Ejecuta Snort 3 y guarda los resultados.
+- Organiza la salida en un directorio específico.
+
+---
+
+### 8. `fusiona_pcap.sh`
+Script en Bash para fusionar múltiples archivos `.pcap` en uno solo.
+
+**Funcionalidad:**
+- Utiliza `mergecap` para combinar todos los `.pcap` de una carpeta en un único archivo.
+- Ideal para consolidar capturas antes de analizarlas.
+
+---
+
 ## Utilidad General
 
 Estos scripts son parte integral del flujo de trabajo de análisis de seguridad en red, ayudando a:
 - Automatizar la revisión de alertas.
 - Filtrar falsos positivos.
 - Mantener las reglas de Snort limpias y eficientes.
+- Consolidar información para análisis más eficaces.
