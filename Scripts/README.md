@@ -91,7 +91,6 @@ Script en Bash para fusionar múltiples archivos `.pcap` en uno solo.
 
 **Funcionalidad:**
 - Utiliza `mergecap` para combinar todos los `.pcap` de una carpeta en un único archivo.
-- Ideal para consolidar capturas antes de analizarlas.
 
 ---
 
